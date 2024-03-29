@@ -1,0 +1,210 @@
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\CKFinder.pdb
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\Eticaret.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\Eticaret.pdb
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\CKFinder.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\Microsoft.WindowsAzure.Storage.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\AjaxControlToolkit.pdb
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\CKEditor.NET.pdb
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\CKFinder.pdb
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\Microsoft.WindowsAzure.Storage.xml
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\ar\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\cs\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\de\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\es\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\fr\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\he\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\hi\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\it\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\ja\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\ko\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\nl\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\pt\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\ru\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\zh-CHS\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\bin\zh-CHT\AjaxControlToolkit.resources.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+F:\BackUp\Eticaret son\Eticaret\Eticaret\obj\Debug\Eticaret.dll
+F:\BackUp\Eticaret son\Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\AjaxControlToolkit.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\Eticaret\bin\CKEditor.NET.dll
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\CKEditor.NET.dll
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Yeni\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Yeni\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Yeni\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Tema\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Yeni\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\bin\Eticaret.dll
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\bin\Eticaret.pdb
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\bin\CKFinder.dll
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\bin\CKEditor.NET.pdb
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\bin\CKFinder.pdb
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\obj\Debug\Eticaret.dll
+F:\BackUp\Eticaret son\Ev\Yeni\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Yeni\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\CKEditor.NET.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\ePayment.dll
+C:\Users\Pc\Desktop\Eticaret\Eticaret\bin\PosnetDotNetModule.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\CKEditor.NET.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\ePayment.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\PosnetDotNetModule.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Tema\Yeni Eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\ePayment.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\PosnetDotNetModule.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Admin\Desktop\Masa Üstü\Eticaret 2\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2 - Kopya\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\Eticaret.dll
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\CKFinder.dll
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\CKFinder.pdb
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\UNİT-3\Desktop\eticaret\editlediğim\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\CKFinder.dll
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\CKFinder.pdb
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Tema9\eticaret\Eticaret\bin\CKEditor.NET.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\CKFinder.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\CKFinder.pdb
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Debug\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Debug\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Debug\Eticaret.csprojResolveAssemblyReference.cache

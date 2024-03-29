@@ -1,0 +1,35 @@
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.dll
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\ePayment.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\PosnetDotNetModule.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Release\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Release\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret 2\Eticaret\obj\Release\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\Eticaret.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKFinder.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKEditor.NET.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\bin\CKFinder.pdb
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.dll
+C:\Users\Admin\Desktop\Eticaret 2\Eticaret\obj\Release\Eticaret.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\AjaxControlToolkit.pdb
+C:\Users\Pc\Desktop\Eticaret 2\Eticaret\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\Eticaret.pdb
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\CKFinder.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\bin\CKFinder.pdb
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Release\Eticaret.csprojResolveAssemblyReference.cache
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Release\Eticaret.dll
+C:\Users\UNİT-3\Desktop\Eticaret9\Eticaret\obj\Release\Eticaret.pdb

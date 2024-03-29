@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.tab-content {
+	width:780px;
+	padding-top:10px;
+	z-index: 2;
+	overflow: none;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-khtml-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;		
+}
+
+.tablo1{clear:both; height:125px; float:left; margin-bottom:160px}
+.taksit{ width:280px; height:280px; float:left; margin-right:12px;}
+	.taksit img{margin-top:3px;}
+	.taksitbas{width:221px; height:30px; border-bottom:solid 1px #FFFFFF; position:relative; left:38px}
+	.taksit .fiyat{width:110px; height:17px; float:left; font:11px Tahoma, Geneva, sans-serif; padding-top:3px; color:#333333; text-align:center; border-bottom:solid 1px #FFFFFF; border-right:solid 1px #FFFFFF}
+	.taskitnum{width:35px; height:17px; float:left; background:#DDD; font:11px Tahoma, Geneva, sans-serif; padding-top:3px; color:#333333; text-align:center; margin-right:3px;}
+	.garantib{background:#008000;}
+	.garantit{background:#66CC33;}
+	.yapikredib{background:#A96AC0;}
+	.yapikredit{background:#F1E7F3;}
+	.vakifb{background:#C5B500;}
+	.vakift{background:#F4F6DB;}
+	.akbankb{background:#F7E457;}
+	.akbankt{background:#F4F6DB;}
+	.isbankb{background:#EF6598;}
+	.isbankt{background:#FAAADB;}
+	.finansb{background:#4E95C7;}
+	.finanst{background:#ADC1EA;}
+
+.baslik {
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}

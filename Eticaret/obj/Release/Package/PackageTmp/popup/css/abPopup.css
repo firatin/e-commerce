@@ -1,0 +1,27 @@
+
+
+
+
+#abPopup{display: none; position: absolute; z-index: 9999;}
+/* ================================================ */
+/* ! ab-ust tanimlamalari                           */
+/* ================================================ */
+    #ab-ust{width: 600px; height: 60px; overflow: hidden; margin: 0; padding: 25px 25px 0 25px; background: url(../resim/ust.png) left top no-repeat;}
+        a#ab-kapat{width:32px; height: 32px; overflow: hidden; margin: 4px 0 0 5px ; padding:0; display: inline-block;  text-indent: -9999px; background: url(../resim/kapat2.png) left top no-repeat; float: left;}
+        a#ab-kapat:hover{ background: url(../resim/kapat.png) left top no-repeat;}
+        h2#ab-baslik{width: 550px; font-size: 14px; font-family: 'Verdana',serif; font-weight: normal; line-height: 17px; overflow: hidden; margin: 4px 0 0 5px; padding:10px 0 0 0; display: inline-block; text-align: center;}
+/* ================================================ */
+/* ! ab-orta tanimlamalari                          */
+/* ================================================ */
+    #ab-orta{width: 600px; overflow: hidden; margin: 0px 0 0 0; padding: 0 30px; background: url(../resim/orta.png) left top repeat-y;}
+        #ab-orta p{width: 570px; overflow: hidden; margin: 0; padding: 10px ;font-family: 'Verdana',serif; font-size: 12px; line-height: 16px; color: #333 ; text-align: justify;}
+            #ab-orta p a{color: #000; font-weight: bold; text-decoration: none;}
+            #ab-orta p a:hover{color: #cd1821;  text-decoration: none;}
+            #ab-orta p img{width:160px; overflow: hidden; margin: 0; padding: 0 10px 10px 0; float: left; }
+/* ================================================ */
+/* ! ab-alt tanimlamalari                           */
+/* ================================================ */
+    #ab-alt{width: 600px; height: 52px; overflow: hidden; margin: 0; padding: 0 25px; background: url(../resim/alt.png) left top repeat-y;}
+        #ab-alt p{width: 600px; height: 42px; margin: 0;  padding: 10px 0 0 0 ; font-family: 'Verdana',serif;text-align: center; font-size: 11px; line-height: 15px; color: #333;}
+            #ab-alt a{display: inline-block; color: #333;  text-decoration: none; float: none; }
+            #ab-alt a:hover{color: #cd1821;}

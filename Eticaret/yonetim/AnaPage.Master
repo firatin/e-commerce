@@ -1,0 +1,213 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnaPage.master.cs" Inherits="Eticaret.yonetim.AnaPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Yönetim Paneli</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+
+    <script src="lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+      <%--toastmessage--%>
+
+    <link href="/toastmessage/toastmessage.css" rel="stylesheet" />
+    <script src="/jstoast/jquery-1.9.1.js"></script>
+    <script src="/jstoast/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/jstoast/jquery.toastmessage.js"></script>
+    <script src="/jstoast/jqui-tr.js"></script>
+
+    <style type="text/css">
+        #line-chart {
+            height: 300px;
+            width: 800px;
+            margin: 0px auto;
+            margin-top: 1em;
+        }
+
+        .brand {
+            font-family: georgia, serif;
+        }
+
+            .brand .first {
+                color: #ccc;
+                font-style: italic;
+            }
+
+            .brand .second {
+                color: #fff;
+                font-weight: bold;
+            }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+
+        <body class="">
+            <!--<![endif]-->
+
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <ul class="nav pull-right">
+
+
+                        <li id="fat-menu" class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="icon-user"></i>
+                                <asp:Label ID="lblAdmin" runat="server" Text="Label"></asp:Label>
+                                <i class="icon-caret-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li><a tabindex="-1" class="visible-phone" href="#">Ayarlarım</a></li>
+                                <li class="divider visible-phone"></li>
+                                <li><a tabindex="-1">
+                                    <asp:LinkButton ID="lnkCikis" runat="server" OnClick="lnkCikis_Click">Güvenli Çıkış</asp:LinkButton></a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <a class="brand" href="../Default.aspx" target="_blank"><span class="second">Siteye Git</span></a>
+                </div>
+            </div>
+
+
+
+
+            <div class="sidebar-nav">
+
+                <a href="Default.aspx" class="nav-header"><i class="icon-dashboard"></i>Ana Sayfa</a>
+
+                <a href="#Ul1" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Ayarlar<i class="icon-chevron-up"></i></a>
+                <ul id="Ul1" class="nav nav-list collapse">
+                    <li><a href="Firma.aspx">Firma Bilgileri</a></li>
+                    <li><a href="MailForm.aspx">Mail Formları</a></li>
+                    <li><a href="Popup.aspx">Popup Mesaj</a></li>
+                    <%--<li><a href="Reklam.aspx">Reklam Alanı</a></li>--%>
+                    <li><a href="Seo.aspx">SEO Ayarları</a></li>
+                    <li><a href="indirim.aspx">İndirim Değerleri</a></li>
+                    <li><a href="Taksit.aspx">Taksit Seçenekleri</a></li>
+                    <li><a href="Kargo.aspx">Kargo Tanımlamaları</a></li>
+                    <li><a href="BankaHesap.aspx">Banka Hesapları</a></li>
+
+
+                </ul>
+                <a href="#Ul13" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Ödeme Ayarları<i class="icon-chevron-up"></i></a>
+                <ul id="Ul13" class="nav nav-list collapse">
+                  
+                    <li><a href="OdemeSecenek.aspx">Ödeme Seçenekleri</a></li>
+                    <li><a href="SanalPos.aspx">Sanal Pos Ayarları</a></li>
+                    <li><a href="iyzicoPos.aspx">İyzico Pos Ayarları</a></li>
+                    <li><a href="3dPos.aspx">3D Ordak Ödeme Ayarları</a></li>
+
+                </ul>
+
+                <a href="#Ul2" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Ürün Yönetimi<i class="icon-chevron-up"></i></a>
+                <ul id="Ul2" class="nav nav-list collapse">
+                    <li><a href="Urunler.aspx">Ürünler</a></li>
+                    <li><a href="Kategoriler.aspx">Kategoriler</a></li>
+                    <li><a href="Markalar.aspx">Markalar</a></li>
+                    <li><a href="Varyantlar.aspx">Varyantlar</a></li>
+                    <li><a href="Banner.aspx">Bannerlar</a></li>
+
+                </ul>
+                <a href="#Ul7" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Sipariş Yönetimi<i class="icon-chevron-up"></i></a>
+                <ul id="Ul7" class="nav nav-list collapse">
+                    <li><a href="Siparisler.aspx">Siparişler</a></li>
+                    <li><a href="GelirDetay.aspx">Gelir Dağılımı</a></li>
+
+                </ul>
+                <a href="#Ul8" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Yorum Yönetimi<i class="icon-chevron-up"></i></a>
+                <ul id="Ul8" class="nav nav-list collapse">
+                    <li><a href="Yorumlar.aspx">Yorumlar</a></li>
+
+                </ul>
+                <a href="#Ul3" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Sayfalar<i class="icon-chevron-up"></i></a>
+                <ul id="Ul3" class="nav nav-list collapse">
+                    <li><a href="Sayfalar.aspx">Sayfalar</a></li>
+
+                </ul>
+
+                <a href="#Ul6" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Bildirimler<i class="icon-chevron-up"></i></a>
+                <ul id="Ul6" class="nav nav-list collapse">
+                    <li><a href="OdemeBildirim.aspx">Ödeme Bildirimleri</a></li>
+                    <li><a href="Mesajlar.aspx">Gelen Mesajlar</a></li>
+                </ul>
+                <a href="#Ul4" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>Üyeler<i class="icon-chevron-up"></i></a>
+                <ul id="Ul4" class="nav nav-list collapse">
+                    <li><a href="Uyeler.aspx">Üyeler</a></li>
+                    <li><a href="Mail.aspx">Mail Gönder</a></li>
+
+                </ul>
+
+
+            </div>
+
+
+
+            <div class="content">
+
+                <div class="header">
+                    <div class="stats">
+                        <a href="Mesajlar.aspx" title="Yeni Mesajlar">
+                            <p class="stat">
+                                Mesajlar <span class="number">
+                                    <asp:Label ID="lblMesaj" runat="server"></asp:Label></span>
+                            </p>
+                        </a>
+                        <a href="OdemeBildirim.aspx" title="Yeni Bildirimler">
+                            <p class="stat">
+                                Bildirimler <span class="number">
+                                    <asp:Label ID="lblBildirim" runat="server"></asp:Label></span>
+                            </p>
+                        </a>
+                        <a href="Yorumlar.aspx" title="Yeni Yorumlar">
+                            <p class="stat">
+                                Yorumlar <span class="number">
+                                    <asp:Label ID="lblYrm" runat="server"></asp:Label></span>
+                            </p>
+                        </a>
+
+
+                    </div>
+
+                    <h1 class="page-title"></h1>
+                </div>
+
+                <ul class="breadcrumb">
+                    <li>
+                        <asp:Label ID="lblBilgi" runat="server" Font-Size="Large"></asp:Label><span class="divider"></span></li>
+
+                </ul>
+
+                <div class="container-fluid">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+
+
+            <script src="lib/bootstrap/js/bootstrap.js"></script>
+            <script type="text/javascript">
+                $("[rel=tooltip]").tooltip();
+                $(function () {
+                    $('.demo-cancel-click').click(function () { return false; });
+                });
+            </script>
+
+        </body>
+    </form>
+</body>
+</html>

@@ -1,0 +1,378 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Eticaret.Site1" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <%-- // Stylesheets // --%>
+    <%--    <link href="css/bootstrap.css" rel="stylesheet" />--%>
+
+
+    <link href="/css/buttons.css" rel="stylesheet" />
+    <link href="/css/font-awesome-ie7.min.css" rel="stylesheet" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+
+   <%-- taksit css --%>
+     <link rel="stylesheet" href="/css/taksit.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/ddsmoothmenu.css" type="text/css" />
+    <link rel="stylesheet" href="/css/acordin.css" type="text/css" />
+    <link rel="stylesheet" href="/css/slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/list.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/contentslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+    
+     
+    <%-- // Javascript // --%>
+    <%--toastmessage--%>
+
+    <link href="/toastmessage/toastmessage.css" rel="stylesheet" />
+    <script src="/jstoast/jquery-1.9.1.js"></script>
+    <script src="/jstoast/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/jstoast/jquery.toastmessage.js"></script>
+    <script src="/jstoast/jqui-tr.js"></script>
+
+
+    <script src="/js/buttons.js"></script>
+
+    <%--<link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>--%>
+  <%--  <script type="text/javascript" src="/js/jquery.min.js"></script>--%>
+    <script type="text/javascript" src="/js/animatedcollapse.js"></script>
+    <script type="text/javascript" src="/js/collapse.js"></script>
+    <script type="text/javascript" src="/js/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="/js/menu.js"></script>
+    <script type="text/javascript" src="/js/contentslider.js"></script>
+    <%--<script type="text/javascript" src="/js/jquery.min14.js"></script>--%>
+    <script type="text/javascript" src="/js/ddaccordion.js"></script>
+    <script type="text/javascript" src="/js/acordin.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.1.2.js"></script>
+    <script type="text/javascript" src="/js/jquery.anythingslider.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <script type="text/javascript" src="/js/switch.js"></script>
+    <script type="text/javascript" src="/js/paging.js"></script>
+    <script type="text/javascript" src="/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="/js/scroller.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox-1.3.1.js"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+    <script type="text/javascript" src="/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="/js/Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js"></script>
+    <script type="text/javascript" src="/js/cufon.js"></script>
+
+   <%-- popup--%>
+     <link rel="stylesheet" href="popup/css/abPopup.css" media="all" type="text/css" />
+        <!-- jquery dosyalar' -->
+         
+        <script type="text/javascript" src="popup/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="popup/js/abPopup.js"></script>
+  <%--  popup bitiş--%>
+    <script type="text/javascript">
+        $(function () {
+            $('#popup1').abPopup
+            ({
+                'acilis': 'otomatik',
+                'pozisyon': 'ortala,ortala',
+                'arkaplan': '#333',
+                'arkaplanSaydam': '0.9',
+                'htmlTag': '#ab-kapat',
+                'siyahCerceve': true,
+                'esc': true,
+                'cookieGun': 1
+            });
+        });
+
+        </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+
+        <div id="wrapper_sec">
+            <!-- Header Section -->
+            <div id="masthead">
+                <div class="logo" id="divLogo" runat="server" visible="true">
+                     
+                    <a href="/Default.aspx">
+                        <img src="/images/<%=Logo %>" alt="<%=Title%>" title="<%=Title%>"  width="230" height="50"/></a>
+                </div>
+                <div class="topnav">
+                    <asp:Panel ID="PanelUye" runat="server" Visible="False">
+                        <p class="welcm">
+                            &nbsp; Merhaba <a class="white under" href="/Uye/Bilgilerim.aspx">
+                                <asp:Label ID="lblAdSoyad" runat="server"></asp:Label>
+                            </a>
+                        </p>
+                        <ul class="links">
+                            <li><a href="/Uye/Bilgilerim.aspx">Bilgilerim</a>
+                            </li>
+
+                            <li>
+                                <asp:LinkButton ID="lnkCik" runat="server" class="last" OnClick="lnkCik_Click">&nbsp;&nbsp;Çıkış</asp:LinkButton></li>
+
+                        </ul>
+                    </asp:Panel>
+
+                    <asp:Panel ID="PanelZiyaretci" runat="server">
+                        <p class="welcm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </p>
+                        <ul class="links">
+                            <li><a href="/Uyelik/UyeOl.aspx">Üye Ol</a></li>
+                            <li class="last"><a href="/Uyelik/Giris.aspx" >Üye Girişi</a></li>
+                        </ul>
+
+                    </asp:Panel>
+                  
+                    <div class="clear"></div>
+                    <%--  sepetim --%>
+                    <div class="cart_bag">
+                        <a href="#" rel="toggle[cart_bag_sec]" id="manageMyAccount" class="cartbtn">Alışveriş Sepetim: <asp:Label ID="lblFiyat" runat="server" >Sepetinizde Ürün yok</asp:Label></a>
+                        <div id="cart_bag_sec">
+                            <div class="carttop">&nbsp;</div>
+                            <div class="cartcenter">
+                                <p>
+                                    <asp:Label ID="lblSepetSayi" runat="server">Sepetinizde Ürün Yok.</asp:Label>
+                                </p>
+                                <div id="divPanelSepetim" runat="server" aria-hidden="False" aria-invalid="true">
+                                <ul class="cartitem_smal heads">
+                                     
+                                    <li class="prods bold white">Ürün</li>
+                                    <li class="qty bold white">Adet</li>
+                                    <li class="price bold white">Fiyat</li>
+                                      
+                                </ul>
+                                 <asp:Repeater ID="RpAnaSepet" runat="server" OnItemDataBound="RpAnaSepet_ItemDataBound">
+                                    <ItemTemplate>
+                                <ul class="cartitem_smal">
+                                    <li class="prods txt"> <a href="/detay-<%#Eval("UrunId")%>-<%#Kontrol.UrlSeo(Eval("UrunAdi").ToString())%>.html"><img src="/Resimler/Urun/150/<%#Eval("AnaResim150")%>" width="20" alt="" /> <%#Eval("UrunAdi")%> </a></li>
+                                    <li class="qty"><%#Eval("Miktar")%></li>
+                                    <div id="divUyeFiyat" runat="server"><li class="qty"><%#Eval("UyeSatisFiyatiKdvli","{0:c}")%></li></div>
+                                    <div id="divBayiFiyat" runat="server"><li class="qty"><%#Eval("BayiSatisFiyatiKdvli","{0:c}")%></li></div>
+
+                                </ul>
+                                </ItemTemplate>
+                                </asp:Repeater>
+                                <ul class="cartitem_smal heads">
+                                    <li class="total bold white">Kdv Dahil Toplam:</li>
+                                    <li class="subprice bold white">
+                                        <asp:Label ID="lblKdvDahil" runat="server"></asp:Label></li>
+                                </ul>
+                                <ul class="crtbtns">
+                                    <li><a href="/Uye/Sepet.aspx" class="buttonone"><span>Sepete Git</span> </a></li>
+                                   
+                                  <%-- <div style="text-align:right;">   <asp:ImageButton  ID="btnSepetBosalt" runat="server"  ImageUrl="~/images/icon/shopping-cart-remove-icon.png" Width="30"  ToolTip="Sepeti Boşalt" Visible="true" OnClick="btnSepetBosalt_Click" />
+        <asp:ConfirmButtonExtender ID="btnSepetBosalt_ConfirmButtonExtender" runat="server" ConfirmText="Dikkat: Sepeti Boşaltmak İstediğinizden Emin Misiniz?" Enabled="True" TargetControlID="btnSepetBosalt">
+        </asp:ConfirmButtonExtender> </div> --%>
+                                   
+                                      
+                                    
+                                </ul>
+                                    </div>
+                            </div>
+                            <div class="cartbot">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <%#Eval("UrunAdi")%>
+                <div id="navigation">
+                    <div id="smoothmenu1" class="ddsmoothmenu">
+                        <ul>
+                            <li><a href="/Default.aspx">Ana Sayfa</a></li>
+
+                            <li><a href="#">Hakkımızda</a>
+
+                                <ul>
+                                    <asp:Repeater ID="RpSayfa" runat="server">
+                                        <ItemTemplate>
+                                            <li><a href="/<%#Kontrol.UrlSeo(Eval("SayfaAdi").ToString().ToLower())%>-<%#Eval("SayfaId")%>" title="<%#Eval("SayfaAdi")%>"><%#Eval("SayfaAdi")%></a></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </ul>
+                            </li>
+                            <li><a href="/iletisim.aspx">İletişim</a></li>
+                            <li>
+                                <asp:Panel ID="PanelHesap" runat="server" Visible="False">
+                                    <a href="#">Hesabım</a>
+                                    <ul>
+                                        <li><a href="/Uye/Siparislerim.aspx">Siparişlerim</a></li>
+                                        <li><a href="/Uye/Sepet.aspx">Sepetim</a></li>
+                                        <li><a href="/Uye/Bilgilerim.aspx">Üyelik Bilgilerim</a></li>
+                                        <li><a href="/Uye/Adresim.aspx">Adres Bilgilerim</a></li>
+                                        <li><a href="/Uye/SifremiDegistir.aspx">Şifre Değişikliği</a></li>
+                                         <li><a href="/Uye/Kargom.aspx">Kargo Takibi</a></li>
+                                        <asp:Panel ID="PanelYonet" runat="server" Visible="False">
+                                            <li><a href="/yonetim/Default.aspx">Yönetim Paneli</a></li>
+                                        </asp:Panel>
+                                    </ul>
+                                </asp:Panel>
+                            </li>
+
+
+                        </ul>
+                        <asp:ValidationSummary ID="ValidationSummary1" runat="server" ShowMessageBox="True" ShowSummary="False" ValidationGroup="grbAra" />
+                        <br style="clear: left" />
+                    </div>
+                    <div class="search">
+<div>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtAra" ErrorMessage="Lütfen arama değerini giriniz" ForeColor="Red" ValidationGroup="grbAra">*</asp:RequiredFieldValidator>
+    <asp:TextBox ID="txtAra" runat="server"></asp:TextBox>
+    <asp:TextBoxWatermarkExtender ID="txtAra_TextBoxWatermarkExtender" runat="server" Enabled="True" TargetControlID="txtAra" WatermarkText="Ara...">
+    </asp:TextBoxWatermarkExtender>
+    <asp:ImageButton ID="btnAra" runat="server" CssClass="go" ImageUrl="~/images/go.gif" Width="16px" OnClick="btnAra_Click" ValidationGroup="grbAra" />
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <%#Eval("Miktar")%>
+            <asp:ContentPlaceHolder ID="ContentSlider" runat="server"></asp:ContentPlaceHolder>
+            <%#Eval("UyeSatisFiyatiKdvli","{0:c}")%>
+            <div class="clear"></div>
+            <!-- Cread Crumb Section -->
+            <div id="crumb">
+                <ul class="crumblinks">
+                    <li><a href="/Urunler.aspx?Urun=1">YENİ ÜRÜNLER</a></li> 
+                    <li><a href="/Urunler.aspx?Urun=2">İNDİRİMDEKİLER</a></li>
+                   <li><a href="/Urunler.aspx?Urun=3">HAFTANIN ÜRÜNLERİ</a></li>
+                    <li><a href="/Urunler.aspx?Urun=4">ÖZEL ÜRÜNLER</a> </li>
+                </ul>
+                <ul class="network">
+                    
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <!-- Content Section -->
+            <div id="content_sec">
+                <div class="col1">
+                    <div class="category">
+                        <div class="head">
+                            <h3>Kategoriler</h3>
+                        </div>
+                        <div class="arrowlistmenu">
+                            <asp:Repeater ID="RpAnaKategoriler" runat="server" OnItemDataBound="AltKategoriCek">
+                                <ItemTemplate>
+                                    <a class="menuheader expandable"><%#Eval("KategoriAdi")%></a>
+
+                                    <ul class="categoryitems">
+                                        <asp:Repeater ID="RpAltKategoriler" runat="server">
+                                            <ItemTemplate>
+                                                <li><a href="/<%#Eval("AltKategoriId") %>-<%#Kontrol.UrlSeo(Eval("AltKategoriAdi").ToString()) %>.html"><%#Eval("AltKategoriAdi")%></a></li>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                    </ul>
+
+
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </div>
+
+                        <div class="cart_bag_small">
+            	<h3 class="head">Yeni Ürünler</h3>
+                <ul>
+                    <asp:Repeater ID="RpYeniUrun" runat="server">
+                        <ItemTemplate>
+
+                	<li>
+                    	<div class="thumb"><a href="/detay-<%#Eval("UrunId")%>-<%#Kontrol.UrlSeo(Eval("UrunAdi").ToString())%>.html"><img src="/Resimler/Urun/150/<%#Eval("AnaResim150")%>" width="40" height="35" alt="<%#Eval("UrunAdi")%>" title="<%#Eval("UrunAdi")%>" /></a></div>
+                        <div class="desc">
+                        	<a href="/detay-<%#Eval("UrunId")%>-<%#Kontrol.UrlSeo(Eval("UrunAdi").ToString())%>.html"><%#Eval("UrunAdi")%></a>
+                        </div>
+                    </li>
+                    </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+               </div>
+                        <div class="cart_bag_small">
+            	<h3 class="head">İndirimli Ürünler</h3>
+                <ul>
+                    <asp:Repeater ID="Rpindirimli" runat="server">
+                        <ItemTemplate>
+
+                	<li>
+                    	<div class="thumb"><a href="/detay-<%#Eval("UrunId")%>-<%#Kontrol.UrlSeo(Eval("UrunAdi").ToString())%>.html"><img src="/Resimler/Urun/150/<%#Eval("AnaResim150")%>" width="40" height="35" alt="<%#Eval("UrunAdi")%>" title="<%#Eval("UrunAdi")%>" /></a></div>
+                        <div class="desc">
+                        	<a href="/detay-<%#Eval("UrunId")%>-<%#Kontrol.UrlSeo(Eval("UrunAdi").ToString())%>.html"><%#Eval("UrunAdi")%></a>
+                        </div>
+                    </li>
+                    </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+                <div class="clear"></div>
+        	</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <asp:ContentPlaceHolder ID="ContentSolAlan" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="col2">
+                    <h4 class="heading colr">
+                        <asp:Label ID="lblBilgi" runat="server"></asp:Label>&nbsp;
+                        <asp:ContentPlaceHolder ID="ContentPlaceMaster2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </h4>
+                    <%#Eval("BayiSatisFiyatiKdvli","{0:c}")%>
+                    <asp:ContentPlaceHolder ID="ContentOrtaUrunler" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            <!-- Footer Section -->
+            <div id="footer">
+                <div class="rights">
+                    <div class="clear"></div>
+                 <div id="divFooterReklam" runat="server" class="footerReklam" visible="false">
+                    <a href="<%=FooterUrl%>" target="_blank">
+                        <img src="/Resimler/Banner/<%=FooterResim%>" alt="<%=FooterBaslik%>" title="<%=FooterBaslik%>"  class="footerReklam"/></a>
+                 </div>
+                       
+                    <p>
+                        <asp:Label ID="lblFooter" runat="server" ></asp:Label> Bu Site <a href="http://www.eticaret4.com" target="_blank">Eticaret4</a> Alt Yapısını Kullanmaktadır.</p>
+                </div>
+               
+                <div class="foot_links" >
+                    <ul runat="server" id="ulziyaretci">
+                        <li>
+                            <h5>Üyelik</h5>
+                        </li>
+                        <li><a href="/Uyelik/SifremiUnuttum.aspx ">Üye Ol</a></li>
+                        <li><a href="/Uyelik/UyeOl.aspx">Şifremi Unuttum</a></li>
+                        <li></li>
+                    </ul>
+                     <ul runat="server" id="ulUye" >
+                        <li>
+                            <h5>Üyelik</h5>
+                        </li >
+                        <li><a href="/Uye/Bilgilerim.aspx">Bilgilerim</a></li>
+                        <li><a href="/Uye/Adresim.aspx">Adresim</a></li>
+                         <li><a href="/Uye/Sepet.aspx">Sepetim</a></li>
+                         <li><a href="/Uye/Siparislerim.aspx">Siparişlerim</a></li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h5>Hakkımızda</h5>
+                        </li>
+                        <li><a href="iletisim.aspx">İletişim</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h5>&nbsp;</h5>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+                   
+            </div>
+        </div>
+    </form>
+</body>
+</html>
