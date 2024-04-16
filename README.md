@@ -1,6 +1,6 @@
 ---
 
-# E-Commerce - E-Ticaret 
+# E-Commerce / E-Ticaret 
 
 Welcome to our e-commerce!
 It utilizes C# with ADO.NET and MSSQL for backend operations, while the frontend is developed using HTML, JavaScript, and AJAX for dynamic interactions. 
